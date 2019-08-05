@@ -1,0 +1,154 @@
+.navigation-menu {
+  display: block;
+}
+
+[class^="content"] {
+  margin: auto 0;
+  position: block;
+}
+
+[class^="dropdown"] {
+  background: none;
+  /* transition: all 1s ease-in-out; */
+}
+
+.drop-wrap-1 .content-psy {
+  position: relative;
+  display: none;
+  padding: 0;
+}
+.drop-wrap-2 .content-mh {
+  position: relative;
+  display: none;
+  padding: 0;
+}
+.drop-wrap-3 .content-pers {
+  position: relative;
+  display: none;
+  padding: 0;
+}
+
+.drop-wrap-3 {
+  margin-bottom: 1rem;
+}
+
+.show {
+  display: flex;
+}
+
+#psych {
+  width: 100%;
+}
+
+[class^="content"] {
+  position: absolute;
+  /* padding-top: 1rem 0; */
+  display: none;
+  left: 0;
+  top: 0;
+  background-color: rgb(53, 53, 53);
+  width: 100vw;
+  text-align: left;
+  padding: 1rem;
+}
+
+.drop-links {
+  color: white !important;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.drop-links:hover {
+  color: #333 !important;
+  background-color: white !important;
+  box-shadow: inset 1px 0px 2px 1px rgba(0, 0, 0, 0.315) !important;
+}
+
+.about-us {
+  margin-top: 5rem;
+}
+
+.hero-wrapper {
+  height: auto;
+}
+
+.hero-content {
+  width: 100%;
+  /* padding: 2rem; */
+  background: none;
+  color: white;
+}
+
+.article-wrap {
+  display: block;
+}
+
+.article-card {
+  width: 100%;
+  margin: 1em 0;
+  text-align: center;
+  border: none;
+}
+
+.article-card img {
+  width: 100%;
+  margin: 0;
+}
+
+.article-card p {
+  text-align: left;
+}
+
+.article-card a {
+  background-color: whitesmoke;
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid grey;
+}
+
+.article-card h5 {
+  background-color: whitesmoke;
+  padding: 1rem;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.219);
+}
+
+.spacing-black-section {
+  background-size: 190%;
+  display: flex;
+}
+.spacing-black-section div img {
+  display: none;
+}
+
+.modal {
+  margin: 5rem 0;
+  padding: 2rem;
+  width: 100%;
+}
+
+.modal p {
+  width: auto;
+}
+
+.form-list {
+  width: 100%;
+}
+
+.sides {
+  width: 100%;
+  margin: 5rem 0;
+  padding: 5rem;
+  background-color: rgba(79, 2, 102, 0.253);
+  box-shadow: 1px 0px 10px 1px rgba(123, 1, 160, 0.123);
+}
+
+.footer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.footer h5 {
+  margin-bottom: 2.5rem;
+}
